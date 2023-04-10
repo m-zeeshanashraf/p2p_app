@@ -1,0 +1,21 @@
+.container {
+  text-align: center;
+  vertical-align: top;
+  height: 100vh;
+}
+
+.box1 {
+  display: inline-block;
+  width: 20%;
+  height: 100vh;
+  overflow: auto;
+  box-shadow: #555 0 0 8px;
+}
+
+.box2 {
+  display: inline-block;
+  width: 79%;
+  height: 100vh;
+  overflow: auto;
+  box-shadow: #555 0 0 8px;
+}

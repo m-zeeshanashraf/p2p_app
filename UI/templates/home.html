@@ -2,9 +2,12 @@
 <html>
 <head>
     <title>My Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>Welcome to my Flask app!</h1>
-    <p>This is the home page.</p>
+    <div class="container">
+		<div class="box1">Box 1</div>
+		<div class="box2">Box 2</div>
+	</div>     
 </body>
 </html>
