@@ -1,6 +1,6 @@
 .body {
   min-width: 1000px;
-  min-height: 800px;
+  min-height: 800;
 
 }
 
@@ -68,9 +68,19 @@
 }
 
 
+textarea{
+  color: rebeccapurple;
+  height: 7dvh;
+  resize: none;
+  width: 100%;
+}
 
+div#MessageArea {
+align-content: center;
+display: flex;
+width: 100%;
 
-
+}
 
 .box1 {
   display: inline-block;
