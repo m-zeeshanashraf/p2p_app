@@ -4,10 +4,36 @@
     <title>My Flask App</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
-<body>
+<body class="body">
+    <!-- Main Container of width 100% and height 100% vertical height -->
     <div class="container">
-		<div class="box1">Box 1</div>
-		<div class="box2">Box 2</div>
+
+
+        <!-- Sidebar containg user data and his friends -->
+        <div class="SidebarContainer">
+		    <div class="box1">Box 1</div>
+        </div>
+
+
+        <!-- User Messages area  -->
+        <div class="MainContainer">
+
+            <div class="MessageFriendData">
+                <img src="im.png" class="MessageFriendDataPic" >
+                <p>NAME</p>
+            </div>
+
+            <div class="MessageRecevingData">
+                
+                <p>NAME</p>
+            </div>
+            <div class="MessageSendingData">
+                
+                <p>NAME</p>
+            </div>
+
+
+        </div>
 	</div>     
 </body>
 </html>
